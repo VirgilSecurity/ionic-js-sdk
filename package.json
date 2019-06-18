@@ -1,6 +1,6 @@
 {
   "name": "ionic-js-sdk",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Ionic SDK implemented using Javascript.",
   "main": "output/Libs/sdk.bundle.js",
   "scripts": {

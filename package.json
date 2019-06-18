@@ -2,7 +2,7 @@
   "name": "ionic-js-sdk",
   "version": "2.0.0",
   "description": "Ionic SDK implemented using Javascript.",
-  "main": "output/libs/sdk.bundle.js",
+  "main": "output/Libs/sdk.bundle.js",
   "scripts": {
     "lint": "eslint ./sdk",
     "coverage": "npm run jascoverage && npm run cukcoverage",

@@ -28,12 +28,15 @@ let { decryptFile } = require('./FileCipher.js');
 
 let { createKeys, getKeys, updateKeys } = require('./Keys.js');
 
+let { enrollUserWithSamlAssertion } = require('./HeadlessEnroll');
+
 const proto = {
     createKeys,
     getKeys,
     updateKeys,
     createDevice,
     enrollUser,
+    enrollUserWithSamlAssertion,
     loadUser,
     queryProfiles,
     setActiveProfile,
